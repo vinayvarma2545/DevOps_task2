@@ -29,7 +29,3 @@ jobs:
         pip install flask
         pip install mongoengine
         pip install healthcheck
-
-    - name: Test with pytest
-      run: |
-        pytest
