@@ -30,3 +30,7 @@ jobs:
         pip install mongoengine
         pip install healthcheck
         pip install pytest
+        
+    - name: Test with pytest
+      run: |
+        pytest  
