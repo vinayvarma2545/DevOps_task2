@@ -29,4 +29,3 @@ jobs:
         pip install flask
         pip install mongoengine
         pip install healthcheck
-        pip install pytest
