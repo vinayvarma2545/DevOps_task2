@@ -1,6 +1,3 @@
-from concurrent.futures.thread import _worker
-from pyexpat import model
-from urllib import response
 from flask import Flask, request, jsonify
 from flask_mongoengine import MongoEngine
 import json
