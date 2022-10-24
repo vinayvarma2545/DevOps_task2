@@ -1,5 +1,5 @@
-import app from mongoeng
-import pytest
+from mongoeng import app
+
 
 def test_welcome():
   client = app.test_client()
